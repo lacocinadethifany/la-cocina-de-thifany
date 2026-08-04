@@ -331,6 +331,7 @@ h3{font-size:1.4rem; color:var(--terracotta-dark);}
     grid-template-columns:1fr 1fr;
     gap:12px 16px;
   }
+  .eyebrow-red, .hero-copy h1{text-align:center;}
 }
 
 @media (max-width: 480px){
