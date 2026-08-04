@@ -83,6 +83,14 @@ h3{font-size:1.4rem; color:var(--terracotta-dark);}
 .btn-gold{background:var(--gold); color:#5c3b17;}
 .btn-block{display:block; width:100%; margin-top:24px;}
 
+.nav-actions{display:flex; align-items:center; gap:20px;}
+.nav-instagram{
+  color:var(--terracotta-dark);
+  display:flex;
+  transition:color .15s ease, transform .15s ease;
+}
+.nav-instagram:hover{color:var(--rose); transform:translateY(-2px);}
+
 /* Hero */
 .hero{padding:70px 0 90px;}
 .hero-grid{
