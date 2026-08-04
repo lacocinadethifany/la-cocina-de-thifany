@@ -309,11 +309,12 @@ h3{font-size:1.4rem; color:var(--terracotta-dark);}
 @media (max-width: 860px){
   .hero-grid, .about-grid, .two-col{grid-template-columns:1fr;}
   .about-grid{direction:ltr;}
-  .about-photo{max-width:320px; margin:0 auto;}
+  .about-photo{max-width:280px; margin:0 auto; display:block;}
   .problem-grid{grid-template-columns:1fr;}
   .feature-grid{grid-template-columns:repeat(2, 1fr);}
   .pill{position:static; transform:none; display:inline-block; margin-top:20px;}
   .hero-media{text-align:center;}
+  .hero-photo{max-width:280px; margin:0 auto; display:block;}
 }
 
 @media (max-width: 480px){
