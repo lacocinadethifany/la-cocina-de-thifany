@@ -134,9 +134,11 @@ h3{font-size:1.4rem; color:var(--terracotta-dark);}
   color:var(--green);
   font-size:.95rem;
 }
-.hero-media{position:relative;}
+.hero-media{position:relative; text-align:center;}
 .hero-photo{
   width:100%;
+  max-width:380px;
+  margin:0 auto;
   border-radius:var(--radius);
   border:3px dotted var(--terracotta);
   padding:8px;
@@ -187,9 +189,12 @@ h3{font-size:1.4rem; color:var(--terracotta-dark);}
 }
 .about-photo{
   width:100%;
+  max-width:340px;
+  margin:0 auto;
   border-radius:var(--radius);
   border:3px dashed var(--terracotta);
   padding:8px;
+  display:block;
 }
 .script-signature{
   font-family:'Caveat', cursive;
