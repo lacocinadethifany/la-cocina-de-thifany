@@ -315,3 +315,18 @@ h3{font-size:1.4rem; color:var(--terracotta-dark);}
   .pill{position:static; transform:none; display:inline-block; margin-top:20px;}
   .hero-media{text-align:center;}
 }
+
+@media (max-width: 480px){
+  .navbar{padding:14px 0;}
+  .navbar-inner{flex-wrap:wrap; gap:10px;}
+  .logo{font-size:1.05rem;}
+  .nav-actions{gap:12px;}
+  .nav-instagram svg{width:18px; height:18px;}
+  .btn-sm{padding:9px 16px; font-size:.75rem; white-space:nowrap;}
+  .section{padding:56px 0;}
+  h1{font-size:1.7rem;}
+  h2{font-size:1.4rem;}
+  .price-amount{font-size:2.2rem;}
+  .tag-row{gap:10px;}
+  .tag-pill{padding:10px 18px; font-size:.85rem;}
+}
