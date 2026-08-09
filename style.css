@@ -244,6 +244,24 @@ h3{font-size:1.4rem; color:var(--terracotta-dark);}
 }
 .feature-emoji{font-size:2.4rem;}
 
+/* Testimonials */
+.testimonial-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:24px;
+}
+.testimonial-card{
+  background:var(--cream-alt);
+  border-radius:20px;
+  padding:10px;
+  box-shadow:0 6px 18px rgba(74,45,29,0.08);
+}
+.testimonial-img{
+  width:100%;
+  display:block;
+  border-radius:14px;
+}
+
 /* Price */
 .price-section{
   background:linear-gradient(135deg, #a2552b, #8a4423);
@@ -258,8 +276,21 @@ h3{font-size:1.4rem; color:var(--terracotta-dark);}
   border-radius:28px;
   padding:44px;
 }
-.price-old{text-decoration:line-through; opacity:.7; font-size:1.1rem;}
-.price-new{margin:14px 0 20px;}
+.price-founders{
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-weight:700;
+  font-size:.9rem;
+  color:var(--gold);
+}
+.price-new{margin:14px 0 12px;}
+.price-note{
+  font-size:.9rem;
+  opacity:.85;
+  max-width:400px;
+  margin:0 auto 24px;
+  line-height:1.5;
+}
 .price-amount{
   font-family:'Playfair Display', serif;
   font-size:3rem;
@@ -322,6 +353,7 @@ h3{font-size:1.4rem; color:var(--terracotta-dark);}
   .about-photo{max-width:280px; margin:0 auto; display:block;}
   .problem-grid{grid-template-columns:1fr;}
   .feature-grid{grid-template-columns:repeat(2, 1fr);}
+  .testimonial-grid{grid-template-columns:1fr;}
   .pill{position:static; transform:none; display:inline-block; margin-top:20px;}
   .hero-media{text-align:center;}
   .hero-photo{max-width:280px; margin:0 auto; display:block;}
